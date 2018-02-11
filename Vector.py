@@ -142,32 +142,3 @@ class Vector(object):
         cross_product = self.cross(v)
         return cross_product.magnitude()
         
-    
-            
-            
-                
-
-v=Vector(['3','6'])
-w=Vector(['8','9'])
-#print v.dot(w)
-#print v.magnitude()
-#print v.times_scalar(3)
-#print v.normalized()
-
-
-#print v.angle_with(w)
-
-
-#print 'is parallel:', v.is_parallel_to(w)
-#print 'is orthogonal:', v.is_orthogonal_to(w)
-
-#print v.area_of_parallelogram_with(w)
-print v.area_of_triangle_with(w)
-                   
-
-#v=Vector([1,2,3])
-#print v
-#w=Vector([4,5,6])
-#print v.times_scalar(3)
-#print v.magnitude()
-#print v.normalized()
